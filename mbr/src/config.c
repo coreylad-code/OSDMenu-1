@@ -195,7 +195,7 @@ int loadConfig() {
     if (!strncmp(lineBuffer, "osd_videooutput", 15)) {
       if (!strcmp(valuePtr, "rgb"))
         settings.osdVideoOutput = 0;
-      else if (!strcmp(valuePtr, "ycbcr") || !strcmp(valuePtr, "component") || !strcmp(valuePtr, "ypbpr"))
+      else if (!strcmp(valuePtr, "component"))
         settings.osdVideoOutput = 1;
       continue;
     }

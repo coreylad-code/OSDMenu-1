@@ -21,6 +21,5 @@ ps1drv_enable_smooth = 0
 ps1drv_use_ps1vn = 0
 prefer_bbn = 0
 app_gameid = 0
-# osd_videooutput = rgb      # Options: rgb, ycbcr, component, ypbpr
 osd_screentype =
 osd_language =
